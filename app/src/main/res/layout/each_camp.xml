@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="2dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_marginVertical="10dp">
+
+        <TextView
+            android:id="@+id/txtCampOrgBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Organiser"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCampDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txtCampOrgBy"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="-26dp"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCampTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txtCampDate"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="-26dp"
+            android:text="Time"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCampVenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txtCampTime"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="-26dp"
+            android:text="Venue"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCampRegLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txtCampVenue"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="-26dp"
+            android:text="Registration Link"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCampContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txtCampRegLink"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="-26dp"
+            android:text="Contact"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCampPosted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txtCampContact"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="-26dp"
+            android:text="Posted by...."
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCampEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txtCampContact"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-82dp"
+            android:backgroundTint="@color/light_red"
+            android:elevation="10dp"
+            android:text="Edit"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCampCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/btnCampEdit"
+            android:layout_alignBottom="@id/txtCampContact"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-121dp"
+            android:layout_marginBottom="-82dp"
+            android:backgroundTint="@color/light_red"
+            android:elevation="10dp"
+            android:text="Call"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCampDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/btnCampEdit"
+            android:layout_alignBottom="@id/txtCampContact"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="-234dp"
+            android:layout_marginBottom="-81dp"
+            android:backgroundTint="@color/light_red"
+            android:elevation="10dp"
+            android:text="Delete"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".EditProfileActivity">
+
+        <include
+            android:id="@+id/toolbarEditProfile"
+            layout="@layout/toolbar" />
+
+        <EditText
+            android:id="@+id/edtEditPersonName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="30dp" />
+
+        <EditText
+            android:id="@+id/edtEditPhone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Mobile No."
+            android:inputType="phone"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:id="@+id/edtEditAlternatePhone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Alternate Mobile No."
+            android:inputType="phone"
+            android:layout_marginTop="5dp" />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/txtEditArea"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Area"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"/>
+
+            <Spinner
+                android:id="@+id/spnEditArea"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/txtEditBloodGrp"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Blood group"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"/>
+
+            <Spinner
+                android:id="@+id/spnEditBloodGroup"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtEditLastDonated"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Last Donated On"
+            android:inputType="date"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtEditEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edtEditPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edtEditConfirmPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/txtError1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnEditProfile"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="70dp"
+            android:backgroundTint="@color/light_red"
+            android:elevation="10dp"
+            android:text="Edit Profile"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>
