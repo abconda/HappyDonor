@@ -68,9 +68,9 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                         for (DocumentSnapshot d : list) {
                             User modal = d.toObject(User.class);
                             lastDonated = modal.getLastDonated();
-                            DateTimeFormatter df = DateTimeFormatter.ofPattern("dd-M-yyyy");
+                            DateTimeFormatter df = DateTimeFormatter.ofPattern("d-M-yyyy");
                             if(lastDonated.equals("")) {
-                                newDate = LocalDate.now().plusMonths(3);
+                                newDate = LocalDate.now();
                             }
                             else {
                                 date = LocalDate.parse(lastDonated, df);
