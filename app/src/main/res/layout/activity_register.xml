@@ -43,6 +43,10 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:background="@drawable/stroke"
+            android:drawableStart="@drawable/ic_baseline_name_2_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
             android:hint="Full Name"
             android:inputType="textPersonName"
             android:layout_marginTop="20dp" />
@@ -51,16 +55,24 @@
             android:id="@+id/edtRegisterPhone"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:ems="10"
+            android:drawableStart="@drawable/ic_baseline_contacts_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/stroke"
             android:hint="Mobile No."
-            android:inputType="phone"
-            android:layout_marginTop="5dp"/>
+            android:inputType="phone" />
 
         <EditText
             android:id="@+id/edtRegisterAlternatePhone"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:background="@drawable/stroke"
+            android:drawableStart="@drawable/ic_baseline_local_phone_24"
+            android:drawablePadding="8dp"
+            android:paddingStart="10dp"
             android:hint="Alternate Mobile No."
             android:inputType="phone"
             android:layout_marginTop="5dp" />
@@ -73,11 +85,14 @@
 
             <TextView
                 android:id="@+id/txtRegisterArea"
-                android:layout_width="110dp"
+                android:layout_width="138dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/ic_baseline_place_24"
+                android:drawablePadding="8dp"
+                android:paddingStart="10dp"
                 android:text="Area"
-                android:textSize="18sp"
-                android:layout_marginTop="5dp"/>
+                android:textSize="18sp" />
 
             <Spinner
                 android:id="@+id/spnRegisterArea"
@@ -94,11 +109,14 @@
 
             <TextView
                 android:id="@+id/txtRegisterBloodGrp"
-                android:layout_width="110dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawableStart="@drawable/ic_baseline_bloodtype_24"
+                android:drawablePadding="8dp"
+                android:paddingStart="10dp"
                 android:text="Blood group"
-                android:textSize="18sp"
-                android:layout_marginTop="8dp"/>
+                android:textSize="18sp" />
 
             <Spinner
                 android:id="@+id/spnRegisterBloodGroup"
@@ -113,6 +131,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:ems="10"
+            android:drawableStart="@drawable/ic_baseline_date_range_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/stroke"
             android:hint="Last Donated On"
             android:inputType="date"
             android:textSize="18sp" />
@@ -123,6 +145,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:ems="10"
+            android:drawableStart="@drawable/ic_baseline_mail_outline_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/stroke"
             android:hint="Email"
             android:inputType="textEmailAddress" />
 
@@ -132,6 +158,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:ems="10"
+            android:drawableStart="@drawable/ic_outline_lock_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/stroke"
             android:hint="Password"
             android:inputType="textPassword" />
 
@@ -141,6 +171,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:ems="10"
+            android:drawableStart="@drawable/ic_outline_lock_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/stroke"
             android:hint="Confirm Password"
             android:inputType="textPassword" />
 

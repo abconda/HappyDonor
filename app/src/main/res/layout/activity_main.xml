@@ -18,23 +18,23 @@
 
     <TextView
         android:id="@+id/txtTagline"
-        android:layout_width="226dp"
+        android:layout_width="385dp"
         android:layout_height="30dp"
         android:fontFamily="sans-serif-black"
-        android:text="Be the reason someone’s"
         android:gravity="center"
+        android:text="Be the reason someone’s"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="italic" />
 
     <TextView
         android:id="@+id/txtTagline1"
-        android:layout_width="166dp"
+        android:layout_width="381dp"
         android:layout_height="32dp"
         android:layout_marginBottom="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="heart beats strong"
         android:gravity="center"
+        android:text="heart beats strong"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="italic" />

@@ -27,6 +27,10 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
             android:ems="10"
+            android:drawableStart="@drawable/ic_outline_person_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/stroke"
             android:hint="Patient Name"
             android:importantForAutofill="no"
             android:inputType="text" />
@@ -45,6 +49,9 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 android:layout_weight="1"
+                android:drawableStart="@drawable/ic_baseline_bloodtype_24"
+                android:drawablePadding="8dp"
+                android:paddingStart="10dp"
                 android:text="Blood Group"
                 android:textSize="18sp" />
 
@@ -72,6 +79,9 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_weight="1"
+                android:drawableStart="@drawable/ic_baseline_date_range_24"
+                android:drawablePadding="8dp"
+                android:paddingStart="10dp"
                 android:text="Last Date"
                 android:textSize="18sp" />
 
@@ -84,6 +94,8 @@
                 android:layout_marginEnd="10dp"
                 android:layout_weight="1"
                 android:ems="10"
+                android:hint="   1/1/2021"
+                android:background="@drawable/stroke"
                 android:inputType="date" />
         </LinearLayout>
 
@@ -95,6 +107,10 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
             android:ems="10"
+            android:drawableStart="@drawable/ic_baseline_local_hospital_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/stroke"
             android:hint="Hospital Name And Address"
             android:inputType="text" />
 
@@ -113,6 +129,10 @@
                 android:layout_marginEnd="10dp"
                 android:layout_weight="1"
                 android:ems="10"
+                android:drawablePadding="3dp"
+                android:background="@drawable/stroke"
+                android:drawableStart="@drawable/ic_outline_person_24"
+                android:paddingStart="5dp"
                 android:hint="Donors Needed"
                 android:inputType="text" />
 
@@ -124,6 +144,9 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 android:layout_weight="1"
+                android:background="@drawable/stroke"
+                android:drawableStart="@drawable/ic_outline_person_24"
+                android:paddingStart="5dp"
                 android:hint="Donors Got"
                 android:inputType="text" />
         </LinearLayout>
@@ -135,6 +158,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
+            android:drawableStart="@drawable/ic_baseline_contacts_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/stroke"
             android:hint="Contact No."
             android:inputType="phone" />
 
@@ -145,6 +172,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
+            android:drawableStart="@drawable/ic_baseline_label_important_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/stroke"
             android:hint="Posted By"
             android:inputType="text" />
 

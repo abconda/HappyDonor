@@ -19,19 +19,23 @@
         android:id="@+id/toolbarPostPost"
         layout="@layout/toolbar" />
 
-    <EditText
-        android:id="@+id/edtPostPostPatient"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="10dp"
-        android:ems="10"
-        android:hint="Patient Name"
-        android:importantForAutofill="no"
-        android:inputType="text" />
+        <EditText
+            android:id="@+id/edtPostPostPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:drawableStart="@drawable/ic_outline_person_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
+            android:background="@drawable/stroke"
+            android:hint="Patient Name"
+            android:importantForAutofill="no"
+            android:inputType="text" />
 
-    <LinearLayout
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -45,6 +49,9 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:drawableStart="@drawable/ic_baseline_bloodtype_24"
+            android:drawablePadding="8dp"
+            android:paddingStart="10dp"
             android:text="Blood Group"
             android:textSize="18sp" />
 
@@ -72,6 +79,9 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:drawableStart="@drawable/ic_baseline_date_range_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
             android:text="Last Date"
             android:textSize="18sp" />
 
@@ -82,23 +92,29 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
+            android:background="@drawable/stroke"
+            android:paddingStart="10dp"
             android:layout_weight="1"
             android:ems="10"
             android:inputType="date" />
     </LinearLayout>
 
-    <EditText
-        android:id="@+id/edtPostPostHospital"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="10dp"
-        android:ems="10"
-        android:hint="Hospital Name And Address"
-        android:inputType="text" />
+        <EditText
+            android:id="@+id/edtPostPostHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:background="@drawable/stroke"
+            android:drawableStart="@drawable/ic_baseline_local_hospital_24"
+            android:drawablePadding="8dp"
+            android:paddingStart="10dp"
+            android:hint="Hospital Name And Address"
+            android:inputType="text" />
 
-    <LinearLayout
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -113,6 +129,10 @@
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:ems="10"
+            android:drawableStart="@drawable/ic_outline_person_24"
+            android:paddingStart="5dp"
+            android:drawablePadding="3dp"
+            android:background="@drawable/stroke"
             android:hint="Donors Needed"
             android:inputType="number" />
 
@@ -124,6 +144,10 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:drawableStart="@drawable/ic_outline_person_24"
+            android:paddingStart="5dp"
+            android:drawablePadding="3dp"
+            android:background="@drawable/stroke"
             android:hint="Donors Got"
             android:inputType="number" />
     </LinearLayout>
@@ -135,6 +159,10 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
+        android:drawableStart="@drawable/ic_baseline_contacts_24"
+        android:paddingStart="10dp"
+        android:drawablePadding="8dp"
+        android:background="@drawable/stroke"
         android:hint="Contact No."
         android:inputType="phone" />
 
@@ -145,6 +173,10 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
+        android:drawableStart="@drawable/ic_baseline_label_important_24"
+        android:paddingStart="10dp"
+        android:drawablePadding="8dp"
+        android:background="@drawable/stroke"
         android:hint="Posted By"
         android:inputType="text" />
 

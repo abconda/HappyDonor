@@ -36,6 +36,10 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:background="@drawable/stroke"
+        android:drawableStart="@drawable/ic_baseline_mail_outline_24"
+        android:drawablePadding="10dp"
+        android:paddingStart="10dp"
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:layout_marginTop="20dp" />
@@ -45,9 +49,13 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:paddingStart="10dp"
+        android:background="@drawable/stroke"
+        android:drawableStart="@drawable/ic_outline_lock_24"
+        android:drawablePadding="10dp"
         android:hint="Password"
         android:inputType="textPassword"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="10dp"/>
 
     <Button
         android:id="@+id/btnLoginLogin"

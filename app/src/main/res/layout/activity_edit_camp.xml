@@ -20,6 +20,10 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
+        android:drawableStart="@drawable/ic_baseline_date_range_24"
+        android:paddingStart="10dp"
+        android:drawablePadding="8dp"
+        android:background="@drawable/stroke"
         android:ems="10"
         android:hint="Organized By"
         android:inputType="text" />
@@ -38,6 +42,9 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:drawableStart="@drawable/ic_baseline_date_range_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
             android:text="Camp Date"
             android:textSize="18sp" />
 
@@ -49,6 +56,8 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:background="@drawable/stroke"
+            android:hint="   1/1/2021"
             android:ems="10"
             android:inputType="date" />
     </LinearLayout>
@@ -67,6 +76,9 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:drawableStart="@drawable/ic_outline_access_time_24"
+            android:paddingStart="10dp"
+            android:drawablePadding="8dp"
             android:text="Camp Time"
             android:textSize="18sp" />
 
@@ -78,8 +90,10 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_weight="1"
+            android:paddingStart="10dp"
             android:ems="10"
-            android:hint="Ex. 09:30 AM"
+            android:background="@drawable/stroke"
+            android:hint="09:30 AM To 1:30 PM"
             android:inputType="text" />
     </LinearLayout>
 
@@ -91,6 +105,10 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
         android:ems="10"
+        android:drawableStart="@drawable/ic_baseline_place_24"
+        android:paddingStart="10dp"
+        android:drawablePadding="8dp"
+        android:background="@drawable/stroke"
         android:hint="Venue"
         android:inputType="text" />
 
@@ -102,6 +120,10 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
         android:ems="10"
+        android:drawableStart="@drawable/ic_baseline_contacts_24"
+        android:paddingStart="10dp"
+        android:drawablePadding="8dp"
+        android:background="@drawable/stroke"
         android:hint="Contact Name [Phone No]"
         android:inputType="text" />
 
@@ -113,6 +135,9 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
         android:ems="10"
+        android:paddingStart="10dp"
+        android:drawablePadding="8dp"
+        android:background="@drawable/stroke"
         android:hint="Registration Link (If any)"
         android:inputType="text" />
 
